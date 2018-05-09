@@ -1,0 +1,91 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    background: url("images/note.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 40px;
+}
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 2.5px;
+    margin-top: 200px;
+}
+
+/*button*/
+.signup{
+    margin-top: 30px;
+}
+
+.green{
+    background-color: rgba(122, 176, 68, 0.8);
+}
+
+.green:hover{
+    background-color: rgb(122, 176, 68);
+}
+
+/*style the footer*/
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    height: 20px;
+}
+
+
+/*styling of navigation bar*/
+.navbar-custom{
+  background-color: #ff5500;
+  border-color: #c75721;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#e38659), to(#dc662d));
+  background-image: -webkit-linear-gradient(top, #e38659, 0%, #dc662d, 100%);
+  background-image: -moz-linear-gradient(top, #e38659 0%, #dc662d 100%);
+  background-image: linear-gradient(to bottom, #e38659 0%, #dc662d 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe38659', endColorstr='#ffdc662d', GradientType=0);
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Indie Flower, serif;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(0,0,0,.8);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Indie Flower, serif;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* for dropdown only - change the color of droodown */
+.navbar-custom .dropdown-menu {
+    background-color: #ff5500;
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
